@@ -40,4 +40,4 @@ jobs:
           context: .
           push: true
           platforms: linux/amd64
-          tags: ${{ env.REGISTRY }}/${{ github.repository_owner }}/r_gh_actions:latest,${{ env.REGISTRY }}/${{ github.repository_owner }}/r_gh_actions:${{ github.sha }}
+          tags: ${{ env.REGISTRY }}/${{ github.repository_owner }}/r_python_gh_actions:latest,${{ env.REGISTRY }}/${{ github.repository_owner }}/r_python_gh_actions:${{ github.sha }}

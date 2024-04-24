@@ -7,3 +7,4 @@ tensorflow
 beautifulsoup4
 requests
 jupyterlab
+statsmodels
